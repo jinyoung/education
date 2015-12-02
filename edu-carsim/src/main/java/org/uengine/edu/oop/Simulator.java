@@ -9,12 +9,12 @@ public class Simulator {
 
         Car theCar = (Car) Class.forName("org.uengine.edu.oop.models." + args[0]).newInstance();
 
-        for(int i=0; i<100; i++) {
+        System.out.println("Car Model is " + args[0]);
+
+        for(int i=0; i<10; i++) {
             theCar.accelerateOneSecond();
 
             System.out.println(""+ i +  "sec. speed is " + theCar.getCurrentSpeed() + " and the fuel economy is " + theCar.getCurrentFuelEconomy());
         }
-
-
     }
 }
