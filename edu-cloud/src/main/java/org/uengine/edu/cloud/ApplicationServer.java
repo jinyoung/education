@@ -109,7 +109,7 @@ public class ApplicationServer extends AbstractServer implements InvocationHandl
 		invokeContext.setMethodName(m.getName());
 		invokeContext.setArguments(args);
 		
-		Socket socket = new Socket(ipAddress, 8080);
+		Socket socket = new Socket(ipAddress, 9090);
 		
 		InputStream in = new DataInputStream(	new BufferedInputStream(socket.getInputStream()));
 		DataOutputStream out = new DataOutputStream(new BufferedOutputStream(socket.getOutputStream()));

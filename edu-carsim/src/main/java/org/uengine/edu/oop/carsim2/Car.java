@@ -1,4 +1,4 @@
-package org.uengine.edu.oop;
+package org.uengine.edu.oop.carsim2;
 
 /**
  * Created by jjy on 2015. 12. 2..
@@ -10,10 +10,10 @@ public abstract class Car {
             return currentSpeed;
         }
         public void setCurrentSpeed(double currentSpeed) {
+            if(currentSpeed > 250) return;
+
             this.currentSpeed = currentSpeed;
         }
-
-
 
     int runningTime = 0;
         public int getRunningTime() {

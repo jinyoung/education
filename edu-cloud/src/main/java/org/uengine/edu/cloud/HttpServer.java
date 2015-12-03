@@ -13,7 +13,7 @@ public class HttpServer extends AbstractServer{
         pw.println("Content-Type: text/html");
         pw.println("Content-Length: 3");
         pw.println("");
-        pw.println("ABC");
+        pw.println("DEF");
         pw.flush();
     }
 
