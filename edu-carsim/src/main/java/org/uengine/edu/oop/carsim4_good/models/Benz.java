@@ -1,6 +1,7 @@
 package org.uengine.edu.oop.carsim4_good.models;
 
-import org.uengine.edu.oop.carsim2.Car;
+
+import org.uengine.edu.oop.carsim4_good.Car;
 
 /**
  * Created by jjy on 2015. 12. 2..

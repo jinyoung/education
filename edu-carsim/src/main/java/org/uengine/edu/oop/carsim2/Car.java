@@ -9,7 +9,7 @@ public abstract class Car {
         public double getCurrentSpeed() {
             return currentSpeed;
         }
-        public void setCurrentSpeed(double currentSpeed) {
+        protected void setCurrentSpeed(double currentSpeed) {
             if(currentSpeed > 250) return;
 
             this.currentSpeed = currentSpeed;
