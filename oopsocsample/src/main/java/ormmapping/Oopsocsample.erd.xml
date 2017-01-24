@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Model quotesql="1" tablecharset="" mysql_version="504" mssql_version="2005" derby_version="106" ingres_version="9">
+  <Entity name="Account" Unlogged="false" PKClustered="0">
+    <Column name="AccountId">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>255</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Balance">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>6</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+  </Entity>
+</Model>
