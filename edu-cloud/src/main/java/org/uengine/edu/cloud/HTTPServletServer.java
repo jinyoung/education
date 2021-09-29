@@ -196,7 +196,6 @@ public class HTTPServletServer extends AbstractServer {
 			return null;
 		}
 
-		@Override
 		public String changeSessionId() {
 			return null;
 		}
@@ -226,32 +225,26 @@ public class HTTPServletServer extends AbstractServer {
 			return false;
 		}
 
-		@Override
 		public boolean authenticate(HttpServletResponse httpServletResponse) throws IOException, ServletException {
 			return false;
 		}
 
-		@Override
 		public void login(String s, String s1) throws ServletException {
 
 		}
 
-		@Override
 		public void logout() throws ServletException {
 
 		}
 
-		@Override
 		public Collection<Part> getParts() throws IOException, ServletException {
 			return null;
 		}
 
-		@Override
 		public Part getPart(String s) throws IOException, ServletException {
 			return null;
 		}
 
-		@Override
 		public <T extends HttpUpgradeHandler> T upgrade(Class<T> aClass) throws IOException, ServletException {
 			return null;
 		}
@@ -286,7 +279,7 @@ public class HTTPServletServer extends AbstractServer {
 			return 0;
 		}
 
-		@Override
+
 		public long getContentLengthLong() {
 			return 0;
 		}
@@ -300,17 +293,14 @@ public class HTTPServletServer extends AbstractServer {
 			// TODO Auto-generated method stub
 			ServletInputStream servletInputStream = new ServletInputStream(){
 
-				@Override
 				public boolean isFinished() {
 					return false;
 				}
 
-				@Override
 				public boolean isReady() {
 					return false;
 				}
 
-				@Override
 				public void setReadListener(ReadListener readListener) {
 
 				}
@@ -369,57 +359,47 @@ public class HTTPServletServer extends AbstractServer {
 			return null;
 		}
 
-		@Override
 		public int getRemotePort() {
 			return 0;
 		}
 
-		@Override
 		public String getLocalName() {
 			return null;
 		}
 
-		@Override
 		public String getLocalAddr() {
 			return null;
 		}
 
-		@Override
 		public int getLocalPort() {
 			return 0;
 		}
 
-		@Override
 		public ServletContext getServletContext() {
 			return null;
 		}
 
-		@Override
+	
 		public AsyncContext startAsync() throws IllegalStateException {
 			return null;
 		}
 
-		@Override
 		public AsyncContext startAsync(ServletRequest servletRequest, ServletResponse servletResponse) throws IllegalStateException {
 			return null;
 		}
 
-		@Override
 		public boolean isAsyncStarted() {
 			return false;
 		}
 
-		@Override
 		public boolean isAsyncSupported() {
 			return false;
 		}
 
-		@Override
 		public AsyncContext getAsyncContext() {
 			return null;
 		}
 
-		@Override
 		public DispatcherType getDispatcherType() {
 			return null;
 		}
@@ -569,22 +549,18 @@ public class HTTPServletServer extends AbstractServer {
 			
 		}
 
-		@Override
 		public int getStatus() {
 			return 0;
 		}
 
-		@Override
 		public String getHeader(String s) {
 			return null;
 		}
 
-		@Override
 		public Collection<String> getHeaders(String s) {
 			return null;
 		}
 
-		@Override
 		public Collection<String> getHeaderNames() {
 			return null;
 		}
@@ -604,7 +580,7 @@ public class HTTPServletServer extends AbstractServer {
 			return "EUC-KR";
 		}
 
-		@Override
+	
 		public String getContentType() {
 			return null;
 		}
@@ -618,12 +594,10 @@ public class HTTPServletServer extends AbstractServer {
 			// TODO Auto-generated method stub
 			ServletOutputStream servletOutputStream = new ServletOutputStream(){
 
-				@Override
 				public boolean isReady() {
 					return false;
 				}
 
-				@Override
 				public void setWriteListener(WriteListener writeListener) {
 
 				}
@@ -643,7 +617,6 @@ public class HTTPServletServer extends AbstractServer {
 			return null;
 		}
 
-		@Override
 		public void setCharacterEncoding(String s) {
 
 		}
@@ -673,7 +646,6 @@ public class HTTPServletServer extends AbstractServer {
 			
 		}
 
-		@Override
 		public void setContentLengthLong(long l) {
 
 		}
