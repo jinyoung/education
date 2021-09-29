@@ -8,7 +8,6 @@ import org.uengine.edu.cloud.ApplicationServer;
 public class BankingService implements IBanking{
     int balance = 0;
 
-    @Override
     public int deposit(int money) {
         balance = balance + money;
 
